@@ -236,7 +236,7 @@ python3 benchmark.py
 - Vite `5.4.16`
 - Docker / Docker Compose
 
-## Interview Talking Points
+## Talking Points
 
 - **Cost engineering**: dynamic router + semantic cache + compression reduced token spend.
 - **Safety architecture**: pre-guardrails and post-response hallucination checks.
@@ -248,7 +248,7 @@ python3 benchmark.py
 
 
 
-##One Liner
+## One Liner
 
 "Built a self improving LLM optimization platform 
 routing across three real model providers with 
