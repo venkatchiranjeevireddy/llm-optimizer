@@ -1,0 +1,54 @@
+# Secrets — never commit
+.env
+.env.*.local
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+*.log
+
+# Embedded / local virtualenvs (if present)
+backend/.venv/
+backend/venv/
+backend/llmcost/
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+
+# ML / cache artifacts (regenerate locally or use CI)
+models/*.index
+models/*.index.*
+models/faiss_index*
+# Optional: uncomment if pickles are large and you distribute via release/LFS
+# models/*.pkl
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+
+# Docker overrides
+docker/.env

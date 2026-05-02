@@ -1,0 +1,25 @@
+{
+  "test_accuracy": 0.9111,
+  "cv_mean": 0.9333,
+  "cv_std": 0.0251,
+  "training_samples": 720,
+  "test_samples": 180,
+  "total_samples": 900,
+  "label_source": "groq_llama3_labels_balanced",
+  "features": [
+    "prompt_length",
+    "token_estimate",
+    "has_code",
+    "has_math",
+    "has_reasoning",
+    "question_count",
+    "sentence_count",
+    "avg_word_length",
+    "has_creative"
+  ],
+  "label_map": {
+    "0": "groq_simple",
+    "1": "groq_mixtral",
+    "2": "gemini_pro"
+  }
+}
